@@ -7,7 +7,7 @@ function hideElements() {
     var style = document.createElement('style');
     style.id = styleId;
     style.innerHTML = `
-      .pt-4 pre, .pt-4 img, .pt-5, .example, .pt-3{
+      pre, .pt-4 img, .pt-5, .example, .gap-4{
         display: none !important;
       }
     `;
